@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="DataModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="DataModel.User" />
+    <EntitySet Name="Settings" EntityType="DataModel.Settings" />
+    <AssociationSet Name="UserSettings" Association="DataModel.UserSettings">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Settings" EntitySet="Settings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="String" Name="Username" Nullable="false" />
+    <NavigationProperty Name="Setting" Relationship="DataModel.UserSettings" FromRole="User" ToRole="Settings" />
+    <Property Type="Int32" Name="ImageIndex" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Settings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="User" Relationship="DataModel.UserSettings" FromRole="Settings" ToRole="User" />
+    <Property Type="String" Name="OptionsFile" Nullable="false" />
+    <Property Type="Int32" Name="BackupCount" Nullable="false" />
+    <Property Type="String" Name="OptionsPath" Nullable="false" />
+    <Property Type="String" Name="SharePath" Nullable="false" />
+    <Property Type="String" Name="TargetPath" Nullable="false" />
+    <Property Type="String" Name="WorkingDirectory" Nullable="false" />
+    <Property Type="Boolean" Name="Debugging" Nullable="false" />
+    <Property Type="String" Name="JavaPath" Nullable="false" />
+    <Property Type="Boolean" Name="LaunchWithoutJava" Nullable="false" />
+  </EntityType>
+  <Association Name="UserSettings">
+    <End Type="DataModel.User" Role="User" Multiplicity="1" />
+    <End Type="DataModel.Settings" Role="Settings" Multiplicity="1" />
+  </Association>
+</Schema>

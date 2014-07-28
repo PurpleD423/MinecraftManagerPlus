@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MinecraftManagerPlus.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MinecraftManagerPlusStoreContainer">
+    <EntitySet Name="Users" EntityType="MinecraftManagerPlus.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Settings" EntityType="MinecraftManagerPlus.Store.Settings" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="UserSettings" Association="MinecraftManagerPlus.Store.UserSettings">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Settings" EntitySet="Settings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" Nullable="false" />
+    <Property Name="ImageIndex" Type="int" Nullable="false" />
+    <Property Name="Setting_Id" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Settings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="OptionsFile" Type="nvarchar" Nullable="false" />
+    <Property Name="BackupCount" Type="int" Nullable="false" />
+    <Property Name="OptionsPath" Type="nvarchar" Nullable="false" />
+    <Property Name="SharePath" Type="nvarchar" Nullable="false" />
+    <Property Name="TargetPath" Type="nvarchar" Nullable="false" />
+    <Property Name="WorkingDirectory" Type="nvarchar" Nullable="false" />
+    <Property Name="Debugging" Type="bit" Nullable="false" />
+    <Property Name="JavaPath" Type="nvarchar" Nullable="false" />
+    <Property Name="LaunchWithoutJava" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="UserSettings">
+    <End Role="User" Type="MinecraftManagerPlus.Store.Users" Multiplicity="*" />
+    <End Role="Settings" Type="MinecraftManagerPlus.Store.Settings" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Settings">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="Setting_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MinecraftManagerPlus" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="DataModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Users" EntityType="MinecraftManagerPlus.User" />
+          <EntitySet Name="Settings" EntityType="MinecraftManagerPlus.Settings" />
+          <AssociationSet Name="UserSettings" Association="MinecraftManagerPlus.UserSettings">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Settings" EntitySet="Settings" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Type="String" Name="Username" Nullable="false" />
+          <NavigationProperty Name="Setting" Relationship="MinecraftManagerPlus.UserSettings" FromRole="User" ToRole="Settings" />
+          <Property Type="Int32" Name="ImageIndex" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Settings">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <NavigationProperty Name="User" Relationship="MinecraftManagerPlus.UserSettings" FromRole="Settings" ToRole="User" />
+          <Property Type="String" Name="OptionsFile" Nullable="false" />
+          <Property Type="Int32" Name="BackupCount" Nullable="false" />
+          <Property Type="String" Name="OptionsPath" Nullable="false" />
+          <Property Type="String" Name="SharePath" Nullable="false" />
+          <Property Type="String" Name="TargetPath" Nullable="false" />
+          <Property Type="String" Name="WorkingDirectory" Nullable="false" />
+          <Property Type="Boolean" Name="Debugging" Nullable="false" />
+          <Property Type="String" Name="JavaPath" Nullable="false" />
+          <Property Type="Boolean" Name="LaunchWithoutJava" Nullable="false" />
+        </EntityType>
+        <Association Name="UserSettings">
+          <End Type="MinecraftManagerPlus.User" Role="User" Multiplicity="1" />
+          <End Type="MinecraftManagerPlus.Settings" Role="Settings" Multiplicity="1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MinecraftManagerPlusStoreContainer" CdmEntityContainer="DataModelContainer">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(MinecraftManagerPlus.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="IsTypeOf(MinecraftManagerPlus.Settings)">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OptionsFile" ColumnName="OptionsFile" />
+          <ScalarProperty Name="BackupCount" ColumnName="BackupCount" />
+          <ScalarProperty Name="OptionsPath" ColumnName="OptionsPath" />
+          <ScalarProperty Name="SharePath" ColumnName="SharePath" />
+          <ScalarProperty Name="TargetPath" ColumnName="TargetPath" />
+          <ScalarProperty Name="WorkingDirectory" ColumnName="WorkingDirectory" />
+          <ScalarProperty Name="Debugging" ColumnName="Debugging" />
+          <ScalarProperty Name="JavaPath" ColumnName="JavaPath" />
+          <ScalarProperty Name="LaunchWithoutJava" ColumnName="LaunchWithoutJava" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserSettings" TypeName="MinecraftManagerPlus.UserSettings" StoreEntitySet="Users">
+      <EndProperty Name="Settings">
+        <ScalarProperty Name="Id" ColumnName="Setting_Id" />
+      </EndProperty>
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="DataModel" >
+        <EntityTypeShape EntityType="MinecraftManagerPlus.User" Width="1.5" PointX="1.375" PointY="0.5" Height="1.787985026041667" />
+        <EntityTypeShape EntityType="MinecraftManagerPlus.Settings" Width="2" PointX="3.625" PointY="0.5" Height="3.1340950520833331" />
+        <AssociationConnector Association="MinecraftManagerPlus.UserSettings">
+          <ConnectorPoint PointX="2.875" PointY="1.3939925130208335" />
+          <ConnectorPoint PointX="3.625" PointY="1.3939925130208335" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

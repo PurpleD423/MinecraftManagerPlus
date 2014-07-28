@@ -1,0 +1,480 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:App_Data/f:LauncherModel.edmx.sqlce" caret="397" fromTop="7" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:Core/f:UserSettings.cs" caret="178" fromTop="4" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:Core/f:GeneralSettings.cs" caret="181" fromTop="4" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:GeneratedTypes/d:BaseTypes/f:BusinessBaseType.cs" caret="131" fromTop="5" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:app.config" caret="55" fromTop="1" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="10204" fromTop="44" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="9812" fromTop="28" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="9812" fromTop="27" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="8784" fromTop="32" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="8167" fromTop="14" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="8372" fromTop="20" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="11385" fromTop="31" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="10515" fromTop="11" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="10745" fromTop="17" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="7963" fromTop="11" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="13409" fromTop="12" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="1320" fromTop="0" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="14800" fromTop="20" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="7852" fromTop="0" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="12798" fromTop="33" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="15247" fromTop="20" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="31858" fromTop="11" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="11002" fromTop="17" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="11265" fromTop="15" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="7430" fromTop="0" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:Core/f:GeneralSettings.cs" caret="181" fromTop="4" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:Core/f:UserSettings.cs" caret="178" fromTop="4" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="8929" fromTop="11" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="9090" fromTop="14" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="10204" fromTop="31" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="13136" fromTop="20" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="10154" fromTop="2" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:FormMinecraft.cs" caret="11385" fromTop="33" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:app.config" caret="1072" fromTop="12" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/d:GeneratedTypes/d:BaseTypes/f:BusinessBaseType.cs" caret="68" fromTop="2" />
+      <File id="C442E20F-AAA0-4B97-B552-01F296489EC2/f:app.config" caret="55" fromTop="1" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="string" priority="856" />
+      <Item value="String`0" priority="63" />
+      <Item value="minecraft" priority="255" />
+      <Item value="Normal" priority="16" />
+      <Item value="true" priority="483" />
+      <Item value="new" priority="960" />
+      <Item value="proc" priority="287" />
+      <Item value="procStartInfo" priority="63" />
+      <Item value="StreamWriter`0" priority="95" />
+      <Item value="writer" priority="290" />
+      <Item value="StreamWriter" priority="28" />
+      <Item value="false" priority="127" />
+      <Item value="ExecuteShellCommand`0" priority="31" />
+      <Item value="Console`0" priority="122" />
+      <Item value="var" priority="607" />
+      <Item value="StringBuilder" priority="58" />
+      <Item value="commandArgBuilder" priority="127" />
+      <Item value="contextMenu_Launch" priority="31" />
+      <Item value="error" priority="95" />
+      <Item value="StringBuilder`0" priority="63" />
+      <Item value="arguments" priority="63" />
+      <Item value="else" priority="127" />
+      <Item value="prop" priority="319" />
+      <Item value="bool" priority="126" />
+      <Item value="propg" priority="95" />
+      <Item value="ProcessPriorityClass`0" priority="122" />
+      <Item value="Debugging" priority="290" />
+      <Item value="if" priority="1311" />
+      <Item value="process" priority="415" />
+      <Item value="throw" priority="31" />
+      <Item value="Exception" priority="28" />
+      <Item value="Model1Container`0" priority="31" />
+      <Item value="Settings`0" priority="31" />
+      <Item value="LauncherSettings`0" priority="339" />
+      <Item value="Launcher" priority="317" />
+      <Item value="LauncherSettings" priority="225" />
+      <Item value="return" priority="383" />
+      <Item value="launch" priority="31" />
+      <Item value="value" priority="255" />
+      <Item value="private" priority="287" />
+      <Item value="_launcher" priority="160" />
+      <Item value="LauncherModelContainer`0" priority="185" />
+      <Item value="LauncherDBDataSet`0" priority="31" />
+      <Item value="LauncherModelContainer" priority="115" />
+      <Item value="container" priority="63" />
+      <Item value="Core" priority="90" />
+      <Item value="Entities" priority="26" />
+      <Item value="GeneratedEntities" priority="26" />
+      <Item value="settings" priority="1057" />
+      <Item value="open_exec" priority="95" />
+      <Item value="o" priority="319" />
+      <Item value="null" priority="287" />
+      <Item value="settings2" priority="63" />
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="25" />
+      <Item value="Id" priority="63" />
+      <Item value="this" priority="191" />
+      <Item value="using" priority="189" />
+      <Item value="DesktopBounds" priority="31" />
+      <Item value="db" priority="127" />
+      <Item value="launcherSettings" priority="31" />
+      <Item value="i" priority="31" />
+      <Item value="public" priority="63" />
+      <Item value="override" priority="63" />
+      <Item value="MinecraftLauncher" priority="63" />
+      <Item value="GeneratedTypes" priority="53" />
+      <Item value="BaseTypes" priority="53" />
+      <Item value="base" priority="63" />
+      <Item value="next" priority="31" />
+      <Item value="readonly" priority="127" />
+      <Item value="int" priority="63" />
+      <Item value="_execPath" priority="63" />
+      <Item value="_workingDirectory" priority="191" />
+      <Item value="MessageBox`0" priority="159" />
+      <Item value="ex" priority="31" />
+      <Item value="buttons" priority="58" />
+      <Item value="SaveSettings`0" priority="31" />
+      <Item value="LauncherJavaVersion`0" priority="53" />
+      <Item value="LauncherJavaVersion" priority="51" />
+      <Item value="_javax32" priority="31" />
+      <Item value="_javax64" priority="31" />
+      <Item value="Javax32" priority="63" />
+      <Item value="init" priority="31" />
+      <Item value="Javax64" priority="63" />
+      <Item value="Adding_AfterAddEntry" priority="33" />
+      <Item value="FindForm`0" priority="63" />
+      <Item value="e" priority="287" />
+      <Item value="Saving_AfterWriteEntry" priority="33" />
+      <Item value="Saving_Started" priority="16" />
+      <Item value="Saving_AfterRenameTempArchive" priority="16" />
+      <Item value="Saving_Completed" priority="16" />
+      <Item value="progressBar" priority="223" />
+      <Item value="zip" priority="31" />
+      <Item value="Description" priority="31" />
+      <Item value="statusText" priority="63" />
+      <Item value="Description`0" priority="31" />
+      <Item value="Statuses`0" priority="31" />
+      <Item value="User`0" priority="57" />
+      <Item value="User" priority="442" />
+      <Item value="_user" priority="63" />
+      <Item value="user" priority="31" />
+      <Item value="_launcherSettings" priority="32" />
+      <Item value="_userName" priority="31" />
+      <Item value="_username" priority="31" />
+      <Item value="_saveOptions" priority="63" />
+      <Item value="combo_Username" priority="95" />
+      <Item value="Username" priority="31" />
+      <Item value="check_SaveOptions" priority="31" />
+      <Item value="SaveOptions" priority="31" />
+      <Item value="OptionsFile" priority="63" />
+      <Item value="WorkingDirectory" priority="63" />
+      <Item value="Directory`0" priority="31" />
+      <Item value="FileInfo`0" priority="63" />
+      <Item value="FileInfo" priority="177" />
+      <Item value="curWorkingDir" priority="95" />
+      <Item value="SharePath" priority="31" />
+      <Item value="curShareDir" priority="63" />
+      <Item value="ExecPath" priority="63" />
+      <Item value="curExecDir" priority="63" />
+      <Item value="Java" priority="95" />
+      <Item value="open_java" priority="63" />
+      <Item value="curJavaDir" priority="31" />
+      <Item value="btn_exec" priority="31" />
+      <Item value="debugText" priority="159" />
+      <Item value="debugText`0" priority="31" />
+      <Item value="commandArgs" priority="31" />
+      <Item value="debugTextBuilder" priority="287" />
+      <Item value="debugging" priority="95" />
+      <Item value="WindowStyle" priority="27" />
+      <Item value="ProcessWindowStyle`0" priority="32" />
+      <Item value="Process`0" priority="58" />
+      <Item value="NewsStyleUriParser`0" priority="31" />
+      <Item value="debugProc" priority="31" />
+      <Item value="ProcessStartInfo" priority="28" />
+      <Item value="tabControl" priority="95" />
+      <Item value="tabPage_logging" priority="95" />
+      <Item value="textBox_Logging" priority="191" />
+      <Item value="toolTip" priority="474" />
+      <Item value="sender" priority="63" />
+      <Item value="as" priority="31" />
+      <Item value="Button`0" priority="32" />
+      <Item value="btn_help" priority="31" />
+      <Item value="btn_log" priority="31" />
+      <Item value="btn_Options" priority="31" />
+      <Item value="btn_save" priority="31" />
+      <Item value="open_options" priority="63" />
+      <Item value="f" priority="31" />
+      <Item value="Controls" priority="27" />
+      <Item value="AboutBox`0" priority="31" />
+      <Item value="AboutBox" priority="28" />
+      <Item value="aboutBox" priority="31" />
+      <Item value="link_donate" priority="63" />
+      <Item value="System" priority="31" />
+      <Item value="Diagnostics" priority="26" />
+      <Item value="txt_workingDir" priority="31" />
+      <Item value="txt_exec" priority="31" />
+      <Item value="txt_share" priority="31" />
+      <Item value="numeric_backup" priority="31" />
+      <Item value="errorMessage" priority="63" />
+      <Item value="const" priority="31" />
+      <Item value="newline" priority="127" />
+      <Item value="Both" priority="16" />
+      <Item value="tabPage_launcher" priority="31" />
+      <Item value="FormMinecraft`0" priority="31" />
+      <Item value="_context" priority="95" />
+      <Item value="Context" priority="31" />
+      <Item value="_sharePath" priority="63" />
+      <Item value="SpecialFolder" priority="28" />
+      <Item value="browse_share" priority="31" />
+      <Item value="GeneralSettings" priority="127" />
+      <Item value="UserSettings`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace`0" priority="26" />
+      <Item value="Indexer" priority="26" />
+      <Item value="First`1" priority="26" />
+      <Item value="Count`1" priority="53" />
+      <Item value="Select`2" priority="53" />
+      <Item value="Where`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="StartInfo" priority="215" />
+      <Item value="Start`0" priority="26" />
+      <Item value="WaitForExit`0" priority="134" />
+      <Item value="StandardError" priority="53" />
+      <Item value="StandardInput" priority="108" />
+      <Item value="Close`0" priority="53" />
+      <Item value="StandardOutput" priority="107" />
+      <Item value="ErrorDataReceived" priority="26" />
+      <Item value="OutputDataReceived" priority="26" />
+      <Item value="BeginErrorReadLine`0" priority="26" />
+      <Item value="BeginOutputReadLine`0" priority="26" />
+      <Item value="CancelErrorRead`0" priority="26" />
+      <Item value="CancelOutputRead`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="WindowStyle" priority="26" />
+      <Item value="ErrorDialog" priority="53" />
+      <Item value="UseShellExecute" priority="26" />
+      <Item value="FileName" priority="26" />
+      <Item value="Arguments" priority="80" />
+      <Item value="RedirectStandardInput" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="WriteLine`0" priority="107" />
+      <Item value="Close`0" priority="53" />
+      <Item value="Flush`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="431" />
+      <Item value="ToString`0" priority="215" />
+      <Item value="Insert`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="80" />
+      <Item value="IsNullOrEmpty`0" priority="242" />
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Minecraft_Launcher.LauncherSettings">
+      <Item value="SharePath" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Minecraft_Launcher.App_Data.LauncherSettings">
+      <Item value="CreateLauncherSettings`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Minecraft_Launcher.App_Data.LauncherModelContainer">
+      <Item value="SaveChanges`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Minecraft_Launcher.Core.Entities.GeneratedEntities.LauncherSettings">
+      <Item value="Save`0" priority="107" />
+      <Item value="Load`0" priority="53" />
+      <Item value="WhereClause" priority="26" />
+      <Item value="ToList`0" priority="26" />
+      <Item value="SharePath" priority="134" />
+      <Item value="Insert`0" priority="26" />
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Minecraft_Launcher.Core.Entities.GeneratedEntities.LauncherSettings">
+      <Item value="Where`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Doc Comment tags">
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Minecraft_Launcher.App_Data.LauncherSettings">
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.App_Data.LauncherModelContainer">
+      <Item value="LauncherSettings" priority="53" />
+      <Item value="LauncherJavaVersions" priority="26" />
+      <Item value="GeneralSettings" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="AddObject`0" priority="26" />
+      <Item value="Count`1" priority="26" />
+      <Item value="Where`0" priority="53" />
+      <Item value="Select`0" priority="27" />
+      <Item value="Contains`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.App_Data.LauncherSettings">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.GeneratedTypes.BaseTypes.LauncherSettings">
+      <Item value="Id" priority="26" />
+      <Item value="WhereClause" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.GeneratedTypes.BaseTypes.LauncherSettings+Where">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.Core.LauncherSettings">
+      <Item value="SharePath" priority="26" />
+      <Item value="Load`0" priority="53" />
+      <Item value="ExecPath" priority="188" />
+      <Item value="Save`0" priority="53" />
+      <Item value="Insert`0" priority="53" />
+      <Item value="WorkingDirectory" priority="26" />
+      <Item value="BackupCount" priority="190" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="InnerException" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.Core.LauncherJavaVersion">
+      <Item value="x32Bit" priority="26" />
+      <Item value="x64Bit" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ionic.Zip.AddProgressEventArgs">
+      <Item value="EventType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ionic.Zip.SaveProgressEventArgs">
+      <Item value="EventType" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripProgressBar">
+      <Item value="Value" priority="53" />
+      <Item value="Step" priority="80" />
+      <Item value="Maximum" priority="53" />
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ionic.Zip.ZipFile">
+      <Item value="NumberOfSegmentsForMostRecentSave" priority="26" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MinecraftLauncher.FormMinecraft+Statuses">
+      <Item value="BackupComplete" priority="26" />
+      <Item value="Error" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.Core.User">
+      <Item value="Username" priority="80" />
+      <Item value="Save`0" priority="53" />
+      <Item value="OptionsFile" priority="26" />
+      <Item value="SaveOptions" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Items" priority="53" />
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Exists" priority="80" />
+      <Item value="DirectoryName" priority="107" />
+      <Item value="FullName" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="SelectedPath" priority="27" />
+      <Item value="RootFolder" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="InitialDirectory" priority="53" />
+      <Item value="FileName" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="CompareTo`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.ProcessWindowStyle">
+      <Item value="Normal" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="TabPages" priority="26" />
+      <Item value="SelectedTab" priority="26" />
+      <Item value="Refresh`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Focus`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="53" />
+      <Item value="ScrollBars" priority="26" />
+      <Item value="ScrollToCaret`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.FormMinecraft">
+      <Item value="toolTip" priority="26" />
+      <Item value="btn_java" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolTip">
+      <Item value="SetToolTip`0" priority="269" />
+      <Item value="Show`0" priority="26" />
+      <Item value="Active" priority="26" />
+      <Item value="AutoPopDelay" priority="26" />
+      <Item value="InitialDelay" priority="26" />
+      <Item value="ReshowDelay" priority="26" />
+      <Item value="ShowAlways" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Show`0" priority="26" />
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.AboutBox">
+      <Item value="Show`0" priority="53" />
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="link_donate" priority="26" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabel">
+      <Item value="LinkVisited" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.DataReceivedEventArgs">
+      <Item value="Data" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.App_Data.GeneralSettings">
+      <Item value="ExecPath" priority="26" />
+      <Item value="TargetPath" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Count`1" priority="80" />
+      <Item value="FirstOrDefault`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.Core.GeneralSettings">
+      <Item value="WorkingDirectory" priority="270" />
+      <Item value="Insert`0" priority="27" />
+      <Item value="Load`0" priority="26" />
+      <Item value="WhereClause" priority="53" />
+      <Item value="Where`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MinecraftLauncher.GeneratedTypes.BaseTypes.GeneralSettings+Where">
+      <Item value="WorkingDirectory" priority="53" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftManagerPlus", "Minecraft Launcher\MinecraftManagerPlus.csproj", "{C442E20F-AAA0-4B97-B552-01F296489EC2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Minecraft Manager Plus Setup", "Minecraft Launcher Setup\Minecraft Launcher Setup.vdproj", "{29AC655E-6710-49A5-B043-577CB65E138B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Debug|x86.ActiveCfg = Debug|x86
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Debug|x86.Build.0 = Debug|x86
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Release|x86.ActiveCfg = Release|x86
+		{C442E20F-AAA0-4B97-B552-01F296489EC2}.Release|x86.Build.0 = Release|x86
+		{29AC655E-6710-49A5-B043-577CB65E138B}.Debug|Any CPU.ActiveCfg = Debug
+		{29AC655E-6710-49A5-B043-577CB65E138B}.Debug|x86.ActiveCfg = Debug
+		{29AC655E-6710-49A5-B043-577CB65E138B}.Release|Any CPU.ActiveCfg = Release
+		{29AC655E-6710-49A5-B043-577CB65E138B}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

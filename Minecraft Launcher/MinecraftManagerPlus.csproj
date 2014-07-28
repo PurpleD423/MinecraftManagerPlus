@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C442E20F-AAA0-4B97-B552-01F296489EC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinecraftManagerPlus</RootNamespace>
+    <AssemblyName>Minecraft Manager Plus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Icons\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MinecraftManagerPlus.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL" />
+    <Reference Include="Itenso.Configuration, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External Assemblies\Itenso.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.Configuration.WindowsForms, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External Assemblies\Itenso.Configuration.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\DataModel.Designer.cs">
+      <DependentUpon>DataModel.edmx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="FormMinecraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMinecraft.Designer.cs">
+      <DependentUpon>FormMinecraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ExtensionMethods.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMinecraft.resx">
+      <DependentUpon>FormMinecraft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="App_Data\DataModel.edmx.sqlce" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DataModel.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External Assemblies\Ionic.Zip.dll" />
+    <EmbeddedResource Include="Images\Icons\icon.ico" />
+    <EmbeddedResource Include="Images\Icons\Large\Cat.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Cow.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Creeper.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Dog.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Duck.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Ghast.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Pig.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Skeleton.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Snowgolem.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Squid.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Steve.png" />
+    <EmbeddedResource Include="Images\Icons\Large\Zombie.png" />
+    <EmbeddedResource Include="Images\Icons\Small\CatSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\CowSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\CreeperSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\DogSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\DuckSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\GhastSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\PigSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\SkeletonSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\SnowgolemSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\SquidSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\SteveSmall.png" />
+    <EmbeddedResource Include="Images\Icons\Small\ZombieSmall.png" />
+    <Content Include="External Assemblies\Itenso.Configuration.dll" />
+    <Content Include="External Assemblies\Itenso.Configuration.pdb" />
+    <Content Include="External Assemblies\Itenso.Configuration.WindowsForms.dll" />
+    <Content Include="External Assemblies\Itenso.Configuration.WindowsForms.pdb" />
+    <Content Include="options.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="App_Data\DataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CallTarget Targets="PrepareILMerge" />
+    <CallTarget Targets="RunILMerge" />
+    <CallTarget Targets="CopyConfig" />
+  </Target>
+  <Target Name="PrepareILMerge">
+    <Copy SourceFiles="$(ProjectDir)\External Assemblies\ILMerge.exe" DestinationFolder="$(TargetDir)" />
+    <Copy SourceFiles="$(ProjectDir)\External Assemblies\System.Core.dll" DestinationFolder="$(TargetDir)" />
+    <MakeDir Directories="$(TargetDir)Package" />
+  </Target>
+  <Target Name="RunILMerge">
+    <Exec Command="&quot;$(TargetDir)ILMerge.exe&quot; /out:&quot;$(TargetDir)Package\Minecraft Launcher.exe&quot; &quot;$(TargetPath)&quot; &quot;$(TargetDir)System.Core.dll&quot; &quot;$(TargetDir)Ionic.Zip.dll&quot;" />
+  </Target>
+  <Target Name="CopyConfig">
+    <Copy SourceFiles="$(TargetPath).config" DestinationFolder="$(TargetDir)Package" />
+  </Target>
+</Project>

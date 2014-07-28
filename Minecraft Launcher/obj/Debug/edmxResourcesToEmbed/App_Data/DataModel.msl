@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataModelContainer">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.Settings)">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OptionsFile" ColumnName="OptionsFile" />
+          <ScalarProperty Name="BackupCount" ColumnName="BackupCount" />
+          <ScalarProperty Name="OptionsPath" ColumnName="OptionsPath" />
+          <ScalarProperty Name="SharePath" ColumnName="SharePath" />
+          <ScalarProperty Name="TargetPath" ColumnName="TargetPath" />
+          <ScalarProperty Name="WorkingDirectory" ColumnName="WorkingDirectory" />
+          <ScalarProperty Name="Debugging" ColumnName="Debugging" />
+          <ScalarProperty Name="JavaPath" ColumnName="JavaPath" />
+          <ScalarProperty Name="LaunchWithoutJava" ColumnName="LaunchWithoutJava" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserSettings" TypeName="DataModel.UserSettings" StoreEntitySet="Users">
+      <EndProperty Name="Settings">
+        <ScalarProperty Name="Id" ColumnName="Setting_Id" />
+      </EndProperty>
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
